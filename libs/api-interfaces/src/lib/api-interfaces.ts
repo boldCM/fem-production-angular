@@ -1,6 +1,9 @@
 export interface BaseEntity {
   id: string | null;
 }
+export interface Message {
+  message: string | null;
+}
 
 export interface Widget extends BaseEntity {
   title: string;
